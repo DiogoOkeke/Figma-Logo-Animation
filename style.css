@@ -11,6 +11,10 @@ body, html{
  height: 100%;
 }
 
+/*html{
+ font-size: calc(100vw / 425 * 10);
+}*/
+
 :root{
  --height: 10vh;
  --width: 20vw;
@@ -35,34 +39,34 @@ body, html{
 
 @keyframes mainDiv{
  50%{
-  transform: translateX(20px) rotateY(180deg);
+  transform: translateX(1.25rem) rotateY(180deg);
  }
  100%{
   top: 12%;
   left: 46.5%;
-  transform: translateY(1px) translateX(-2px) rotateY(360deg) scale(1);
+  transform: translateY(0.0625rem) translateX(-0.125rem) rotateY(360deg) scale(1);
  }
 }
 
 @-webkit-keyframes mainDiv{
  50%{
-  transform: translateX(20px) rotateY(180deg);
+  transform: translateX(1.25rem) rotateY(180deg);
  }
  100%{
   top: 12%;
   left: 46.5%;
-  transform: translateY(1px) translateX(-2px) rotateY(360deg) scale(1);
+  transform: translateY(0.0625rem) translateX(-0.125rem) rotateY(360deg) scale(1);
  }
 }
 
 @-ms-keyframes mainDiv{
  50%{
-  transform: translateX(20px) rotateY(180deg);
+  transform: translateX(1.25rem) rotateY(180deg);
  }
  100%{
   top: 12%;
   left: 46.5%;
-  transform: translateY(1px) translateX(-2px) rotateY(360deg) scale(1);
+  transform: translateY(0.0625rem) translateX(-0.125rem) rotateY(360deg) scale(1);
  }
 }
 
@@ -152,26 +156,26 @@ body, html{
  
  15%{
   background-color: var(--lightBlueColor);
-  right: 30px;
+  right: 1.875rem;
   border-top-left-radius: 20%;
   transform: rotate(180deg);
  }
  
  25%{
   background-color: var(--purpleColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-right-radius: 20%;
  }
  
  50%{
   background-color: var(--lightGreenColor);
   border-radius: 50%;
-  transform: skewY(30deg) translateX(20px);
+  transform: skewY(30deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--lightBlueColor);
-  transform: translateX(30px) skewX(30deg);
+  transform: translateX(1.875rem) skewX(30deg);
   border-radius: 0;
  }
  
@@ -183,7 +187,7 @@ body, html{
  100%{
   background-color: var(--redColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translateY(-60px);
+  transform: rotate(-90deg) translateY(-3.75rem);
  }
  
 }
@@ -197,26 +201,26 @@ body, html{
  
  15%{
   background-color: var(--lightBlueColor);
-  right: 30px;
+  right: 1.875rem;
   border-top-left-radius: 20%;
   transform: rotate(180deg);
  }
  
  25%{
   background-color: var(--purpleColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-right-radius: 20%;
  }
  
  50%{
   background-color: var(--lightGreenColor);
   border-radius: 50%;
-  transform: skewY(30deg) translateX(20px);
+  transform: skewY(30deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--lightBlueColor);
-  transform: translateX(30px) skewX(30deg);
+  transform: translateX(1.875rem) skewX(30deg);
   border-radius: 0;
  }
  
@@ -228,7 +232,7 @@ body, html{
  100%{
   background-color: var(--redColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translateY(-60px);
+  transform: rotate(-90deg) translateY(-3.75rem);
  }
  
 }
@@ -242,26 +246,26 @@ body, html{
  
  15%{
   background-color: var(--lightBlueColor);
-  right: 30px;
+  right: 1.875rem;
   border-top-left-radius: 20%;
   transform: rotate(180deg);
  }
  
  25%{
   background-color: var(--purpleColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-right-radius: 20%;
  }
  
  50%{
   background-color: var(--lightGreenColor);
   border-radius: 50%;
-  transform: skewY(30deg) translateX(20px);
+  transform: skewY(30deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--lightBlueColor);
-  transform: translateX(30px) skewX(30deg);
+  transform: translateX(1.875rem) skewX(30deg);
   border-radius: 0;
  }
  
@@ -273,7 +277,7 @@ body, html{
  100%{
   background-color: var(--redColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translateY(-60px);
+  transform: rotate(-90deg) translateY(-3.75rem);
  }
  
 }
@@ -299,21 +303,21 @@ body, html{
  
  15%{
   background-color: var(--purpleColor);
-  left: 30px;
+  left: 1.875rem;
   border-top-right-radius: 20%;
   transform: scale(1.5);
  }
  
  25%{
   background-color: var(--lightGreenColor);
-  bottom: 40px;
+  bottom: 2.5rem;
   border-top-left-radius: 20%;
  }
  
  50%{
   background-color: var(--lightBlueColor);
   border-radius: 50% 50% 50% 0;
-  transform: skewX(-30deg) translateX(20px);
+  transform: skewX(-30deg) translateX(1.25rem);
  }
  
  55%{
@@ -331,7 +335,7 @@ body, html{
  100%{
   background-color: var(--lightCoralColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(90deg) translate(-75px, -8px);
+  transform: rotate(90deg) translate(-4.6875rem, -0.5rem);
  }
  
 }
@@ -344,21 +348,21 @@ body, html{
  
  15%{
   background-color: var(--purpleColor);
-  left: 30px;
+  left: 1.875rem;
   border-top-right-radius: 20%;
   transform: scale(1.5);
  }
  
  25%{
   background-color: var(--lightGreenColor);
-  bottom: 40px;
+  bottom: 2.5rem;
   border-top-left-radius: 20%;
  }
  
  50%{
   background-color: var(--lightBlueColor);
   border-radius: 50% 50% 50% 0;
-  transform: skewX(-30deg) translateX(20px);
+  transform: skewX(-30deg) translateX(1.25rem);
  }
  
  55%{
@@ -376,7 +380,7 @@ body, html{
  100%{
   background-color: var(--lightCoralColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(90deg) translate(-75px, -8px);
+  transform: rotate(90deg) translate(-4.6875rem, -0.5rem);
  }
  
 }
@@ -389,21 +393,21 @@ body, html{
  
  15%{
   background-color: var(--purpleColor);
-  left: 30px;
+  left: 1.875rem;
   border-top-right-radius: 20%;
   transform: scale(1.5);
  }
  
  25%{
   background-color: var(--lightGreenColor);
-  bottom: 40px;
+  bottom: 2.5rem;
   border-top-left-radius: 20%;
  }
  
  50%{
   background-color: var(--lightBlueColor);
   border-radius: 50% 50% 50% 0;
-  transform: skewX(-30deg) translateX(20px);
+  transform: skewX(-30deg) translateX(1.25rem);
  }
  
  55%{
@@ -421,7 +425,7 @@ body, html{
  100%{
   background-color: var(--lightCoralColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(90deg) translate(-75px, -8px);
+  transform: rotate(90deg) translate(-4.6875rem, -0.5rem);
  }
  
 }
@@ -447,7 +451,7 @@ body, html{
  
  15%{
   background-color: var(--lightGreenColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-left-radius: 20%;
   transform: skew(40deg);
  }
@@ -460,13 +464,13 @@ body, html{
  50%{
   background-color: var(--lightCoralColor);
   border-radius: 0;
-  transform: rotateY(180deg) translateX(20px);
+  transform: rotateY(180deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--purpleColor);
   border-radius: 40% 10%;
-  transform: translateY(10px) skewX(50deg);
+  transform: translateY(0.625rem) skewX(50deg);
  }
  
  75%{
@@ -477,7 +481,7 @@ body, html{
  100%{
   background-color: var(--purpleColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translate(78.5px, -66px);
+  transform: rotate(-90deg) translate(4.90625rem, -4.125rem);
  }
  
 }
@@ -490,7 +494,7 @@ body, html{
  
  15%{
   background-color: var(--lightGreenColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-left-radius: 20%;
   transform: skew(40deg);
  }
@@ -503,13 +507,13 @@ body, html{
  50%{
   background-color: var(--lightCoralColor);
   border-radius: 0;
-  transform: rotateY(180deg) translateX(20px);
+  transform: rotateY(180deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--purpleColor);
   border-radius: 40% 10%;
-  transform: translateY(10px) skewX(50deg);
+  transform: translateY(0.625rem) skewX(50deg);
  }
  
  75%{
@@ -520,7 +524,7 @@ body, html{
  100%{
   background-color: var(--purpleColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translate(78.5px, -66px);
+  transform: rotate(-90deg) translate(4.90625rem, -4.125rem);
  }
  
 }
@@ -533,7 +537,7 @@ body, html{
  
  15%{
   background-color: var(--lightGreenColor);
-  right: 50px;
+  right: 3.125rem;
   border-top-left-radius: 20%;
   transform: skew(40deg);
  }
@@ -546,13 +550,13 @@ body, html{
  50%{
   background-color: var(--lightCoralColor);
   border-radius: 0;
-  transform: rotateY(180deg) translateX(20px);
+  transform: rotateY(180deg) translateX(1.25rem);
  }
  
  55%{
   background-color: var(--purpleColor);
   border-radius: 40% 10%;
-  transform: translateY(10px) skewX(50deg);
+  transform: translateY(0.625rem) skewX(50deg);
  }
  
  75%{
@@ -563,7 +567,7 @@ body, html{
  100%{
   background-color: var(--purpleColor);
   border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translate(78.5px, -66px);
+  transform: rotate(-90deg) translate(4.90625rem, -4.125rem);
  }
  
 }
@@ -590,8 +594,8 @@ body, html{
  
  15%{
   background-color: var(--lightCoralColor);
-  left: 30px;
-  bottom: 30px;
+  left: 1.875rem;
+  bottom: 1.875rem;
   border-radius: 0 20% 0 20%;
  }
  
@@ -603,12 +607,12 @@ body, html{
  50%{
   background-color: var(--purpleColor);
   border-radius: 30% 0;
-  transform: translateX(50px) rotate(360deg);
+  transform: translateX(3.125rem) rotate(360deg);
  }
  
  55%{
   background-color: var(--lightGreenColor);
-  transform: translateY(30px) scale(1.5);
+  transform: translateY(1.875rem) scale(1.5);
   border-radius: 0;
  }
  
@@ -620,7 +624,7 @@ body, html{
  100%{
   background-color: var(--lightBlueColor);
   border-radius: 50%;
-  transform: translate(6.5px, -152.5px);
+  transform: translate(0.40625rem, -9.53125rem);
  }
  
 }
@@ -634,8 +638,8 @@ body, html{
  
  15%{
   background-color: var(--lightCoralColor);
-  left: 30px;
-  bottom: 30px;
+  left: 1.875rem;
+  bottom: 1.875rem;
   border-radius: 0 20% 0 20%;
  }
  
@@ -647,12 +651,12 @@ body, html{
  50%{
   background-color: var(--purpleColor);
   border-radius: 30% 0;
-  transform: translateX(50px) rotate(360deg);
+  transform: translateX(3.125rem) rotate(360deg);
  }
  
  55%{
   background-color: var(--lightGreenColor);
-  transform: translateY(30px) scale(1.5);
+  transform: translateY(1.875rem) scale(1.5);
   border-radius: 0;
  }
  
@@ -664,7 +668,7 @@ body, html{
  100%{
   background-color: var(--lightBlueColor);
   border-radius: 50%;
-  transform: translate(6.5px, -152.5px);
+  transform: translate(0.40625rem, -9.53125rem);
  }
  
 }
@@ -677,8 +681,8 @@ body, html{
  
  15%{
   background-color: var(--lightCoralColor);
-  left: 30px;
-  bottom: 30px;
+  left: 1.875rem;
+  bottom: 1.875rem;
   border-radius: 0 20% 0 20%;
  }
  
@@ -690,12 +694,12 @@ body, html{
  50%{
   background-color: var(--purpleColor);
   border-radius: 30% 0;
-  transform: translateX(50px) rotate(360deg);
+  transform: translateX(3.125rem) rotate(360deg);
  }
  
  55%{
   background-color: var(--lightGreenColor);
-  transform: translateY(30px) scale(1.5);
+  transform: translateY(1.875rem) scale(1.5);
   border-radius: 0;
  }
  
@@ -707,7 +711,7 @@ body, html{
  100%{
   background-color: var(--lightBlueColor);
   border-radius: 50%;
-  transform: translate(6.5px, -152.5px);
+  transform: translate(0.40625rem, -9.53125rem);
  }
  
 }
@@ -733,7 +737,7 @@ body, html{
  
  15%{
   background-color: var(--redColor);
-  right: 30px;
+  right: 1.875rem;
   border-radius: 20% 0 30% 0;
   transform: skew(30deg);
  }
@@ -745,7 +749,7 @@ body, html{
  
  50%{
   background-color: var(--lightBlueColor);
-  transform: scaleY(1.5) rotateX(180deg) translateX(20px);
+  transform: scaleY(1.5) rotateX(180deg) translateX(1.25rem);
  }
  
  55%{
@@ -761,7 +765,7 @@ body, html{
  100%{
   background-color: var(--lightGreenColor);
   border-radius: 50% 50% 0 50%;
-  transform: rotateX(-180deg) translate(-61px, 160px) scale(0.9);
+  transform: rotateX(-180deg) translate(-3.8125rem, 10rem) scale(0.9);
  }
  
 }
@@ -774,7 +778,7 @@ body, html{
  
  15%{
   background-color: var(--redColor);
-  right: 30px;
+  right: 1.875rem;
   border-radius: 20% 0 30% 0;
   transform: skew(30deg);
  }
@@ -786,7 +790,7 @@ body, html{
  
  50%{
   background-color: var(--lightBlueColor);
-  transform: scaleY(1.5) rotateX(180deg) translateX(20px);
+  transform: scaleY(1.5) rotateX(180deg) translateX(1.25rem);
  }
  
  55%{
@@ -802,7 +806,7 @@ body, html{
  100%{
   background-color: var(--lightGreenColor);
   border-radius: 50% 50% 0 50%;
-  transform: rotateX(-180deg) translate(-61px, 160px) scale(0.9);
+  transform: rotateX(-180deg) translate(-3.8125rem, 10rem) scale(0.9);
  }
  
 }
@@ -815,7 +819,7 @@ body, html{
  
  15%{
   background-color: var(--redColor);
-  right: 30px;
+  right: 1.875rem;
   border-radius: 20% 0 30% 0;
   transform: skew(30deg);
  }
@@ -827,7 +831,7 @@ body, html{
  
  50%{
   background-color: var(--lightBlueColor);
-  transform: scaleY(1.5) rotateX(180deg) translateX(20px);
+  transform: scaleY(1.5) rotateX(180deg) translateX(1.25rem);
  }
  
  55%{
@@ -843,23 +847,9 @@ body, html{
  100%{
   background-color: var(--lightGreenColor);
   border-radius: 50% 50% 0 50%;
-  transform: rotateX(-180deg) translate(-61px, 160px) scale(0.9);
+  transform: rotateX(-180deg) translate(-3.8125rem, 10rem) scale(0.9);
  }
  
 }
 
 
-/* Media Queries 
-
-@keyframes redDiv{
- to{
-  border-radius: 50% 50% 0 0;
-  transform: rotate(-90deg) translateY(-100px);
- }
-}
-
-@keyframes lightCoralDiv{
- to{
-  transform: rotate(90deg) translate(-75px, -18px);
- }
-}*/
